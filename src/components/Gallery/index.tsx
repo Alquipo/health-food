@@ -1,6 +1,4 @@
 import { useRef } from 'react'
-// import { ArrowBackIos as ArrowLeft } from '@styled-icons/material-outlined/ArrowBackIos'
-// import { ArrowForwardIos as ArrowRight } from '@styled-icons/material-outlined/ArrowForwardIos'
 import {
   ArrowRightCircleFill as ArrowRight,
   ArrowLeftCircleFill as ArrowLeft
