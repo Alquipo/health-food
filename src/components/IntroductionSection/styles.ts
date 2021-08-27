@@ -1,10 +1,10 @@
 import styled, { css } from 'styled-components'
+
 import media from 'styled-media-query'
 
 export const Wrapper = styled.section`
   ${({ theme }) => css`
     height: 100vh;
-
     form {
       margin-top: ${theme.spacings.xsmall};
     }
@@ -46,7 +46,7 @@ export const SecondWrapper = styled.div`
   flex: 2;
 
   ${media.lessThan('large')`
-    display: none
+    display: none;
   `};
 `
 
