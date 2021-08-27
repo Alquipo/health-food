@@ -1,7 +1,16 @@
 import styled, { css } from 'styled-components'
+import { TextFieldProps } from '.'
+import InputMask from 'react-input-mask'
 
-export const Wrapper = styled.div`
-  width: 100%;
+export const Wrapper = styled.div<TextFieldProps>`
+  ${({ theme, gridArea }) => css`
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-area: ${gridArea};
+  `}
 `
 
 export const Label = styled.label`
@@ -12,10 +21,10 @@ export const Label = styled.label`
   `}
 `
 
-export const Input = styled.input`
+export const Input = styled(InputMask)`
   ${({ theme }) => css`
     display: block;
-    max-width: 45rem;
+    max-width: 25rem;
     width: 100%;
     padding: ${theme.spacings.xsmall};
     border: solid 0.1rem ${theme.colors.secondary};
