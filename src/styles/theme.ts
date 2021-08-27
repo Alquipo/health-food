@@ -1,6 +1,10 @@
 export default {
+  grid: {
+    container: '160rem',
+    gutter: '3.2rem'
+  },
   border: {
-    radius: '0.4rem'
+    radius: '0.6rem'
   },
   font: {
     family:
@@ -14,19 +18,18 @@ export default {
       medium: '1.6rem',
       large: '1.8rem',
       xlarge: '2.0rem',
-      xxlarge: '2.8rem'
+      xxlarge: '2.8rem',
+      xxxlarge: '3.6rem',
+      huge: '4.8rem'
     }
   },
   colors: {
-    primary: '#F231A5',
-    secondary: '#3CD3C1',
-    mainBg: '#06092B',
-    lightBg: '#F2F2F2',
-    white: '#FAFAFA',
-    black: '#030517',
-    lightGray: '#EAEAEA',
-    gray: '#8F8F8F',
-    darkGray: '#2E2F42'
+    primary: '#BADC58',
+    secondary: '#1D164D',
+    white: '#FFFFFF',
+    lightGray: '#FAFAFC',
+    text: '#9E9BAF',
+    red: '#FF6347'
   },
   spacings: {
     xxsmall: '0.8rem',
@@ -35,7 +38,8 @@ export default {
     medium: '3.2rem',
     large: '4.0rem',
     xlarge: '4.8rem',
-    xxlarge: '5.6rem'
+    xxlarge: '5.6rem',
+    xxxlarge: '6.4rem'
   },
   layers: {
     base: 10,
@@ -43,5 +47,9 @@ export default {
     overlay: 30,
     modal: 40,
     alwaysOnTop: 50
+  },
+  transition: {
+    default: '0.3s ease-in-out',
+    fast: '0.1s ease-in-out'
   }
 } as const
