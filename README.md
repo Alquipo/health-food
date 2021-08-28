@@ -86,10 +86,7 @@ Maior partes das adições foi efetuado configurações básicas, como o desafio
   <img alt="gallery" title="explorer" src=".github/readme/gallery.png" width="400px" height="200" />
   <img alt="signup" title="explorer" src=".github/readme/signup.png" width="400px" height="200" />
 </h4>
-<h4 align="center">
- <img alt="localstorage" title="profile" src=".github/readme/localstorage.png" width="400px" height="200" />
-  <img alt="cookie" title="order" src=".github/readme/cookie.png" width="400px"  />
-</h4>
+
 
 ### Mobile (PWA)
 
