@@ -1,4 +1,4 @@
-import { render, screen } from 'utils/test-utils'
+import { fireEvent, render, screen, waitFor } from 'utils/test-utils'
 
 import Menu from '.'
 
@@ -46,5 +46,17 @@ describe('<Menu/>', () => {
     ).toBeInTheDocument()
 
     expect(container.firstChild).toMatchSnapshot()
+  })
+
+  it('should handle submit button ', () => {
+    render(<Menu />)
+
+    const handleMobileMenu = jest.fn()
+
+    fireEvent.click(screen.getByLabelText(/Open Menu/i))
+
+    waitFor(() => {
+      expect(handleMobileMenu).toHaveBeenCalled()
+    })
   })
 })

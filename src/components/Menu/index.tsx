@@ -8,7 +8,6 @@ import { Menu as MobileMenuIcon } from '@styled-icons/boxicons-regular'
 export default function Menu() {
   const [isOpen, setIsOpen] = useState(false)
 
-  /* istanbul ignore next */
   function handleMobileMenu() {
     setIsOpen((state) => !state)
   }
