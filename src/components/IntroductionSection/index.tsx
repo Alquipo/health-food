@@ -23,7 +23,8 @@ export default function IntroductionSection() {
   }
 
   return (
-    <Container>
+    <>
+      {/* <Container> */}
       <S.Wrapper>
         <Menu />
 
@@ -38,6 +39,7 @@ export default function IntroductionSection() {
                     placeholder="Search healthy recipes"
                     name="text"
                     type="text"
+                    fullWidth
                   />
                   <Button type="submit">
                     <Search size="24" />
@@ -52,6 +54,7 @@ export default function IntroductionSection() {
       </S.Wrapper>
 
       <S.Image src="/img/Illustration.svg" />
-    </Container>
+      {/* </Container> */}
+    </>
   )
 }

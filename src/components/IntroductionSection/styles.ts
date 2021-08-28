@@ -18,7 +18,8 @@ export const Wrapper = styled.section`
 export const Content = styled.div`
   display: flex;
   align-items: center;
-  margin-top: 30rem;
+  margin: 10rem auto;
+  max-width: 120rem;
 
   ${media.lessThan('large')`
     margin-top: 0;
