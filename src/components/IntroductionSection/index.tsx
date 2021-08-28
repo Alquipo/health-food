@@ -6,7 +6,6 @@ import { Search } from '@styled-icons/boxicons-regular'
 
 import Button from '../Button'
 import Menu from '../Menu'
-import Container from '../Container'
 import TextField from '../TextField'
 
 type FormType = {
@@ -24,7 +23,6 @@ export default function IntroductionSection() {
 
   return (
     <>
-      {/* <Container> */}
       <S.Wrapper>
         <Menu />
 
@@ -37,24 +35,21 @@ export default function IntroductionSection() {
                 <Form style={{ display: 'flex' }}>
                   <TextField
                     placeholder="Search healthy recipes"
-                    name="text"
+                    name="recipes"
                     type="text"
                     fullWidth
                   />
-                  <Button type="submit">
+                  <Button type="submit" aria-label="Submit">
                     <Search size="24" />
                   </Button>
                 </Form>
               )}
             </Formik>
           </S.FirstWrapper>
-
           <S.SecondWrapper></S.SecondWrapper>
         </S.Content>
       </S.Wrapper>
-
-      <S.Image src="/img/Illustration.svg" />
-      {/* </Container> */}
+      <S.Image src="/img/Illustration.svg" alt="um peso e uma maçã" />
     </>
   )
 }
