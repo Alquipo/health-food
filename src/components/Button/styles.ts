@@ -3,7 +3,7 @@ import { ButtonProps } from '.'
 
 export const Wrapper = styled.button<ButtonProps>`
   ${({ theme, boxShadow, fullSize }) => css`
-    padding: ${theme.spacings.xxsmall} ${theme.spacings.xsmall};
+    padding: ${theme.spacings.xsmall} ${theme.spacings.small};
     background: ${theme.colors.primary};
     color: ${theme.colors.white};
     border-radius: ${theme.border.radius};
