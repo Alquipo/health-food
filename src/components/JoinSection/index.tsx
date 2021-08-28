@@ -31,6 +31,7 @@ export default function JoinSection() {
                   placeholder="Enter your email address"
                   name="email"
                   type="email"
+                  fullWidth
                 />
                 <Button type="submit">Join</Button>
               </Form>
