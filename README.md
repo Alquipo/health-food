@@ -1,82 +1,129 @@
-<img alt="NextJS" title="NextJS" src=".github/readme/NextJs.png" />
+<p align="center">
+  <img  alt="Healthy Food Web" title="Healthy Food Web" src=".github/readme/logo.svg" />
+</p>
 
 <h1 align="center">
-🚧 Boilerplat NextJs  | Em Construção 🚧
+ Healthy Food Web
 </h1>
 
 <p align="center">
 
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Alquipo/boilerplate-nextjs">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Alquipo/health-food">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Alquipo/boilerplate-nextjs">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Alquipo/health-food">
 
   <a href="https://www.linkedin.com/in/alquiponeto/">
       <img alt="Made by Alquipo" src="https://img.shields.io/badge/made%20by-AlquipoNeto-blue">
   </a>
 
-  <a href="https://github.com/Alquipo/boilerplate-nextjs/commits/master">
-      <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Alquipo/boilerplate-nextjs?color=blue">
+  <a href="https://github.com/Alquipo/health-food/commits/master">
+      <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Alquipo/health-food?color=blue">
   </a>
 
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen?color=blue">
 
-<img alt="CI Workflow" src="https://github.com/Alquipo/boilerplate-nextjs/workflows/ci/badge.svg?color=blue">
+  <img alt="CI Workflow" src="https://github.com/Alquipo/health-food/workflows/ci/badge.svg?color=blue">
+
 </p>
 
 <p align="center">
 
-  <a target="_blank" href="https://reactjs.org/">
-    <img alt="ReactJS" src="https://img.shields.io/static/v1?color=blue&label=React&message=JS&?style=plastic&logo=React">
+  <a target="_blank" href="https://nextjs.org/">
+    <img alt="NextJS" src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white">
   </a>
 
-  <a target="_blank" href="https://nextjs.org/">
-      <img alt="NextJS" src="https://img.shields.io/static/v1?color=white&label=Next&message=JS&?style=plastic&logo=Next.js">
+   <a target="_blank" href="https://pt-br.reactjs.org/">
+    <img alt="React" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB">
   </a>
+
+   <a target="_blank" href="https://storybook.js.org/">
+    <img alt="Jest" src="https://img.shields.io/badge/storybook-%23ff4785.svg?style=for-the-badge&logo=jest&logoColor=white">
+  </a>
+
+
+   <a target="_blank" href="https://jestjs.io/pt-BR/">
+    <img alt="Storybook" src="https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white">
+  </a>
+
+
+
 </p>
 
-<h2 align="center">
-  Bem Vindo a o Boilerplate em NextJS
-</h2>
+## 🚀 Sobre o Desafio
 
-## 🚀 Sobre o Projeto
+Desafio consiste em criar uma landPage para um site de alimentos saudáveis. Deve ser desenvolvido usando React, conter uma pagina de SigUp com formulário e validações, Deverá efetuar um fetch na API dos correios para completar o endereço e os dados deverá ser salvo no localStorage e Cookie
 
-Este e um boilerplate em [Next.js](https://nextjs.org/) usado em meus projetos FrontEnd.
+## 🎉 Extras
+
+Com a finalização dos requisitos solicitados, foram efetuadas algumas adições ao projeto, maior parte das adições foram feitas para melhorar a experiência da equipe, como: Teste Unitários com JEST, Storybook, geração de componentes personalizados com PLOP, Superset de JavaScript com TypeScript e algumas melhorias para o usuário como: Mascaras em alguns inputs e PWA com o NextJS.
+
+Maior partes das adições foi configurado o básico, como o desafio não exigia e o tempo é curto optei por não fazer o desenvolvimento de um projeto completo, mas sim um projeto que pudesse ser usado como um desafio para o mercado.
+## 🎖️ Milestone
+
+    -Adicionar testes unitários ✔️
+    -Adicionar NEXTJS Framework ✔️
+    -Adicionar Storybook ✔️
+    -Adicionar PWA na pagina ✔️
+    -Adicionar mascara em alguns campos ✔️
+    -Adicionar TypeScript ✔️
+    -Adicionar Plop para geração de componentes ✔️
+    -Adicionado um Slider com imagens ✔️
 
 ## 🎨 Layout
 
-<!-- Design feito por -->
+## Preview
 
-<table>
-  <tr>
-    <td colspan="1"><h4 align="center">Geração de Componentes</h4> </td>
-    <td colspan="1"><h4 align="center">Storybook</h4></td>
-    <td colspan="1"><h4 align="center">Main Component</h4></td>
-  </tr>
-  <tr>
-    <td><img src=".github/readme/generate-components.png" width=300 /></td>
-    <td>
-      <a target="_blank" href="https://raw.githubusercontent.com/Alquipo/boilerplate-nextjs/master/.github/readme/storybook-main.png">
-        <img src=".github/readme/storybook-main.png" width=300 />
-      </a>
-    </td>
-    <td><img src=".github/readme/component-main.png" width=300 /></td>
-    <!-- <td><img src=".github/readme/component-main.png" width=180 /></td>
-    <td><img src=".github/readme/component-main.png" width=180 /></td> -->
-  </tr>
-</table>
+|   Desktop   |  Mobile  |
+|---------|-----------|
+| ![Template Chrome Desktop Preview](.github/readme/preview-desktop.gif) | ![Template Mobile Preview](.github/readme/preview-mobile.gif) |
+
+
+### Web
+
+<h4 align="center">
+  <img alt="home" title="home" src=".github/readme/home.png" width="400px" height="200" />
+  <img alt="gallery" title="explorer" src=".github/readme/gallery.png" width="400px" height="200" />
+  <img alt="signup" title="explorer" src=".github/readme/signup.png" width="400px" height="200" />
+</h4>
+<h4 align="center">
+ <img alt="localstorage" title="profile" src=".github/readme/localstorage.png" width="400px" height="200" />
+  <img alt="cookie" title="order" src=".github/readme/cookie.png" width="400px"  />
+</h4>
+
+### Mobile (PWA)
+
+<h4 align="center">
+  <img alt="home" title="home" src=".github/readme/screen-loding-mobile.jpg" width="300px" height="500" />
+  <img alt="explorer" title="explorer" src=".github/readme/home-mobile.jpg" width="300px" height="500" />
+  <img alt="profile" title="profile" src=".github/readme/gallery-mobile.jpg" width="300px" height="500" />
+  <img alt="order" title="order" src=".github/readme/signup-mobile.jpg" width="300px" height="500" />
+</h4>
+
+### Storybook e Test
+
+|   Test Unitário (JEST)   |  Storybook  |
+|---------|-----------|
+| ![Template Chrome Desktop Preview](.github/readme/test.png) | ![Template Mobile Preview](.github/readme/storybook.png) |
+
+
+<br/>
 
 ## 🔨 Tecnologias:
 
 - **[TypeScript](https://www.typescriptlang.org/)**
 - **[NextJS](https://nextjs.org/)**
+- **[Yup](https://www.npmjs.com/package/yup)**
 - **[Styled Components](https://styled-components.com/)**
 - **[Jest](https://jestjs.io/)**
 - **[React Testing Library](https://testing-library.com/docs/react-testing-library/intro)**
 - **[Storybook](https://storybook.js.org/)**
 - **[Eslint](https://eslint.org/)**
 - **[Prettier](https://prettier.io/)**
-- **[Husky](https://github.com/typicode/husky)**
 - **[PlopJS](https://plopjs.com/)**
+- **[Styled-Icons](https://styled-icons.js.org/)**
+- **[React Mask](https://www.npmjs.com/package/react-input-mask)**
+- **[React Slick](https://react-slick.neostack.com/)**
+
 
 ## 🔎 Comandos
 
@@ -98,22 +145,23 @@ Para clonar e executar este aplicativo, você precisará de [Git](https://git-sc
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/Alquipo/boilerplate-nextjs
+$ git clone https://github.com/Alquipo/health-food
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd boilerplate-nextjs
+$ cd health-food
 ```
 
 ### 🎲 Rodando a Aplicação
 
 ```bash
+
 # Instale as dependências
 $ yarn install
 
 # Execute a Aplicação em Desenvolvimento
 $ yarn dev
 
-# O servidor inciará na porta:3000 - acesse http://localhost:3000
+# O servidor iniciará na porta:3000 - acesse http://localhost:3000
 
 ```
 
@@ -122,6 +170,12 @@ $ yarn dev
 ```bash
 #Criação de um componente completo com (index.tsx / stories.tsx / styles.ts / test.tsx)
 $ yarn generate ComponentName
+
+#Rodar o Storybook
+$ yarn storybook
+
+#Rodar os testes unitários
+$ yarn test
 
 ```
 
@@ -139,5 +193,3 @@ $ yarn generate ComponentName
 Este projeto esta sobe a licença MIT. Veja a [LICENÇA](https://opensource.org/licenses/MIT) para saber mais.
 
 Feito com ❤️ por Alquipo Neto 👋🏽 [Entre em contato!](https://www.linkedin.com/in/alquiponeto/)
-
-</h3>
