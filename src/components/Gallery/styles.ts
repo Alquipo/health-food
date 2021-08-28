@@ -17,12 +17,16 @@ export const Wrapper = styled.div`
     }
 
     .slick-prev {
-      left: -${theme.spacings.xxlarge};
+      left: -${theme.spacings.xxxlarge};
       background-color: ${theme.colors.primary};
       border-radius: 50%;
       width: 5rem;
       height: 5rem;
       border: none;
+
+      ${media.lessThan('large')`
+      left: ${theme.spacings.small};
+      `};
     }
 
     .slick-next {
@@ -46,6 +50,13 @@ export const Wrapper = styled.div`
     .slick-slide > div {
       margin: ${theme.spacings.small} ${theme.spacings.xsmall};
       cursor: pointer;
+    }
+
+    .slick-slide {
+      ${media.lessThan('medium')`
+      margin-left: ${theme.spacings.small};
+
+    `}
     }
 
     .slick-list {

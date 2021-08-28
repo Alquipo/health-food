@@ -47,14 +47,16 @@ const settings: SliderSettings = {
       breakpoint: 600,
       settings: {
         slidesToShow: 1.3,
-        draggable: true
+        draggable: true,
+        arrows: false
       }
     },
     {
       breakpoint: 450,
       settings: {
         slidesToShow: 1.2,
-        draggable: true
+        draggable: true,
+        arrows: false
       }
     }
   ]
