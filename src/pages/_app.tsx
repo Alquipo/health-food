@@ -16,6 +16,7 @@ function App({ Component, pageProps }: AppProps) {
 
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#f2f3f5" />
+        <meta name="description" content="The best recipe site in the world" />
       </Head>
       <GlobalStyles />
       <Component {...pageProps} />
