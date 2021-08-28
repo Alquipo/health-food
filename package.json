@@ -11,14 +11,7 @@
     "test:watch": "yarn test --watch",
     "generate": "yarn run plop --plopfile generators/plopfile.js",
     "storybook": "start-storybook -s ./public -p 6006",
-    "build-storybook": "build-storybook -s ./public",
-    "postinstall": "husky install"
-  },
-  "lint-staged": {
-    "src/**/*": [
-      "yarn lint",
-      "yarn test --findRelatedTests --bail"
-    ]
+    "build-storybook": "build-storybook -s ./public"
   },
   "dependencies": {
     "@styled-icons/bootstrap": "^10.34.0",
