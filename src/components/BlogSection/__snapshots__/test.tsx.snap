@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BlogSection/> should render a Blog Section correctly 1`] = `
+.c0 {
+  background: #FAFAFC;
+  overflow: hidden;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 5.6rem 0 4.0rem;
+}
+
+.c2 {
+  width: 100%;
+  max-width: 51rem;
+}
+
+.c3 {
+  font-size: 3.6rem;
+  color: #1D164D;
+  text-align: center;
+}
+
+.c4 {
+  font-size: 2.0rem;
+  font-weight: 600;
+  margin-top: 2.4rem;
+  color: #9E9BAF;
+  text-align: center;
+}
+
+.c5 {
+  width: 100%;
+  max-width: 160rem;
+}
+
+@media (max-width:450px) {
+  .c3 {
+    font-size: 2.8rem;
+  }
+}
+
+@media (max-width:450px) {
+  .c4 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c5 {
+    margin-bottom: calc(4.8rem * 2);
+    display: block;
+  }
+}
+
+<section
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      <h2
+        class="c3"
+      >
+        Read Our Blog
+      </h2>
+      <p
+        class="c4"
+      >
+        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+      </p>
+    </div>
+    <div
+      class="c5"
+    >
+      <div
+        data-testid="Mock Gallery"
+      />
+    </div>
+  </div>
+</section>
+`;
