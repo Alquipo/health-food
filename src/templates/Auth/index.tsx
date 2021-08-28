@@ -1,8 +1,8 @@
+import { NextSeo } from 'next-seo'
+
 import Link from 'next/link'
 import Image from 'next/image'
 
-// import Heading from 'components/Heading'
-// import Logo from 'components/Logo'
 import * as S from './styles'
 
 type AuthProps = {
@@ -14,6 +14,10 @@ const currentYear = new Date().getFullYear()
 
 const Auth = ({ title, children }: AuthProps) => (
   <S.Wrapper>
+    <NextSeo
+      title={'SignUp - Healthy Food'}
+      description={'The best recipe site in the world'}
+    />
     <S.BannerBlock>
       <Image
         src="/img/healthy_food.jpg"
