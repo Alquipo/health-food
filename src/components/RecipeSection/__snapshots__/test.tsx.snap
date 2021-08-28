@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RecipeSection/> should render a service section correctly 1`] = `
+.c0 {
+  background: #FAFAFC;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 5.6rem 0 4.0rem;
+}
+
+.c3 {
+  width: 100%;
+  max-width: 51rem;
+}
+
+.c4 {
+  font-size: 3.6rem;
+  color: #1D164D;
+  text-align: center;
+}
+
+.c5 {
+  margin-top: 2.4rem;
+  color: #9E9BAF;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.c6 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  gap: 3.2rem;
+  margin-top: 5.6rem;
+}
+
+.c1 {
+  width: 100%;
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+@media (max-width:768px) {
+  .c6 {
+    grid-template-columns: 1fr;
+  }
+}
+
+<section
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      <div
+        class="c3"
+      >
+        <h2
+          class="c4"
+        >
+          Our Best Recipes
+        </h2>
+        <p
+          class="c5"
+        >
+          Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+        </p>
+      </div>
+      <div
+        class="c6"
+      >
+        <div
+          data-testid="Mock RecipeCard"
+        />
+        <div
+          data-testid="Mock RecipeCard"
+        />
+        <div
+          data-testid="Mock RecipeCard"
+        />
+        <div
+          data-testid="Mock RecipeCard"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+`;
