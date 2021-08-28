@@ -1,4 +1,4 @@
-import { render, screen } from 'utils/test-utils'
+import { fireEvent, render, screen, waitFor } from 'utils/test-utils'
 import userEvent from '@testing-library/user-event'
 
 import FormSignUp from '.'
@@ -15,6 +15,9 @@ useRouter.mockImplementation(() => ({
 }))
 
 describe('<FormSignUp />', () => {
+  beforeEach(() => {
+    window.localStorage.clear()
+  })
   it('should render the form', () => {
     const { container } = render(<FormSignUp />)
 
@@ -73,5 +76,18 @@ describe('<FormSignUp />', () => {
     userEvent.tab()
 
     expect(screen.getByTestId(/State/i)).toHaveFocus()
+  })
+
+  it('should handle submit button ', () => {
+    render(<FormSignUp />)
+
+    const handleSubmit = jest.fn()
+
+    fireEvent.click(screen.getByLabelText(/Confirm/i))
+
+    waitFor(() => {
+      expect(handleSubmit).toHaveBeenCalled()
+      jest.spyOn(window, 'alert')
+    })
   })
 })

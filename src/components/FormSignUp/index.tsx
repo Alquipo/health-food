@@ -142,7 +142,7 @@ function FormSignUp() {
                 type="text"
               />
 
-              <Button fullSize type="submit">
+              <Button fullSize type="submit" aria-label="Confirm">
                 Confirm
               </Button>
             </Form>

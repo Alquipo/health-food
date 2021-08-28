@@ -282,6 +282,7 @@ exports[`<FormSignUp /> should render the form 1`] = `
       class="c1"
     >
       <label
+        aria-labelledby="Name"
         class="c2"
         for="name"
       >
@@ -300,6 +301,7 @@ exports[`<FormSignUp /> should render the form 1`] = `
       class="c4"
     >
       <label
+        aria-labelledby="Birth Date"
         class="c2"
         for="birthDate"
       >
@@ -318,6 +320,7 @@ exports[`<FormSignUp /> should render the form 1`] = `
       class="c5"
     >
       <label
+        aria-labelledby="CPF"
         class="c2"
         for="cpf"
       >
@@ -336,6 +339,7 @@ exports[`<FormSignUp /> should render the form 1`] = `
       class="c6"
     >
       <label
+        aria-labelledby="Zip Code"
         class="c2"
         for="zipCode"
       >
@@ -354,6 +358,7 @@ exports[`<FormSignUp /> should render the form 1`] = `
       class="c7"
     >
       <label
+        aria-labelledby="Address"
         class="c2"
         for="address"
       >
@@ -372,6 +377,7 @@ exports[`<FormSignUp /> should render the form 1`] = `
       class="c8"
     >
       <label
+        aria-labelledby="Number"
         class="c2"
         for="number"
       >
@@ -390,6 +396,7 @@ exports[`<FormSignUp /> should render the form 1`] = `
       class="c9"
     >
       <label
+        aria-labelledby="District"
         class="c2"
         for="district"
       >
@@ -408,6 +415,7 @@ exports[`<FormSignUp /> should render the form 1`] = `
       class="c10"
     >
       <label
+        aria-labelledby="City"
         class="c2"
         for="city"
       >
@@ -426,6 +434,7 @@ exports[`<FormSignUp /> should render the form 1`] = `
       class="c11"
     >
       <label
+        aria-labelledby="State (UF)"
         class="c2"
         for="state"
       >
@@ -441,6 +450,7 @@ exports[`<FormSignUp /> should render the form 1`] = `
       />
     </div>
     <button
+      aria-label="Confirm"
       class="c12"
       type="submit"
     >
