@@ -55,9 +55,10 @@ Desafio consiste em criar uma landPage para um site de alimentos saudáveis. Dev
 
 ## 🎉 Extras
 
-Com a finalização dos requisitos solicitados, foram efetuadas algumas adições ao projeto, maior parte das adições foram feitas para melhorar a experiência da equipe, como: Teste Unitários com JEST, Storybook, geração de componentes personalizados com PLOP, Superset de JavaScript com TypeScript e algumas melhorias para o usuário como: Mascaras em alguns inputs e PWA com o NextJS.
+Com a finalização dos requisitos solicitados, foram efetuadas algumas adições ao projeto, maior parte das adições foram feitas para melhorar a experiência da equipe, como: Teste Unitários com JEST, Storybook, Styled-Components, geração de componentes personalizados com PLOP, TypeScript e algumas melhorias para o usuário como: Mascaras em alguns inputs e PWA com o NextJS.
 
-Maior partes das adições foi configurado o básico, como o desafio não exigia e o tempo é curto optei por não fazer o desenvolvimento de um projeto completo, mas sim um projeto que pudesse ser usado como um desafio para o mercado.
+Maior partes das adições foi efetuado configurações básicas, como o desafio não exigia e o tempo é curto optei por não fazer o desenvolvimento de um projeto completo, mas sim um projeto que pudesse ser usado como um desafio para o mercado.
+
 ## 🎖️ Milestone
 
     -Adicionar testes unitários ✔️
