@@ -19,6 +19,7 @@ exports[`<Menu/> should render a Menu correctly 1`] = `
   position: relative;
   margin: 0 auto;
   max-width: 120rem;
+  padding: 0 1.5rem;
 }
 
 .c0 a {

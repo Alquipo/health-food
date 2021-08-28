@@ -10,6 +10,7 @@ export const Wrapper = styled.menu`
   position: relative;
   margin: 0 auto;
   max-width: 120rem;
+  padding: 0 1.5rem;
 
   a {
     text-decoration: none;
