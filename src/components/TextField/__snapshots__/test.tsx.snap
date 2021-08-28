@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TextField/> Renders with Label 1`] = `
+.c0 {
+  width: 100%;
+  max-width: 25rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c1 {
+  display: block;
+  font-size: 1.6rem;
+  margin-bottom: 0.8rem;
+}
+
+.c2 {
+  display: block;
+  width: 100%;
+  padding: 1.6rem;
+  border: solid 0.1rem #1D164D;
+  border-radius: 0.6rem;
+  font-size: 1.6rem;
+  -webkit-transition: 0.1s ease-in-out;
+  transition: 0.1s ease-in-out;
+  font-size: 1.4rem;
+}
+
+.c2:focus,
+.c2:hover {
+  outline: none;
+}
+
+<div
+  class="c0"
+>
+  <label
+    aria-labelledby="test"
+    class="c1"
+  >
+    test
+  </label>
+  <input
+    autocomplete="off"
+    class="c2"
+  />
+</div>
+`;

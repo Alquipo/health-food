@@ -23,7 +23,11 @@ function TextField({
 
   return (
     <S.Wrapper gridArea={field.name} fullWidth={fullWidth}>
-      {label && <S.Label htmlFor={field.name}>{label}</S.Label>}
+      {label && (
+        <S.Label htmlFor={field.name} aria-labelledby={label}>
+          {label}
+        </S.Label>
+      )}
 
       <S.Input
         placeholder={placeholder}
