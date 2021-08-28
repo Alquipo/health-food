@@ -1,3 +1,5 @@
+import { NextSeo } from 'next-seo'
+
 import * as S from './styles'
 
 import IntroductionSection from '../../components/IntroductionSection'
@@ -9,6 +11,10 @@ import Footer from '../../components/Footer'
 
 const HomeTemplate = () => (
   <S.Wrapper>
+    <NextSeo
+      title={'Home - Healthy Food'}
+      description={'The best recipe site in the world'}
+    />
     <IntroductionSection />
     <RecipeSection />
     <ServiceSection />
