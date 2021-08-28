@@ -170,6 +170,7 @@ exports[`<JoinSection/> should render a Join Section correctly 1`] = `
           />
         </div>
         <button
+          aria-label="join"
           class="c6"
           type="submit"
         >

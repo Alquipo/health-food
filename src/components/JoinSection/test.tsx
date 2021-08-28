@@ -1,4 +1,4 @@
-import { render, screen } from 'utils/test-utils'
+import { fireEvent, render, screen, waitFor } from 'utils/test-utils'
 
 import JoinSection from '.'
 
@@ -17,5 +17,17 @@ describe('<JoinSection/>', () => {
     ).toBeInTheDocument()
 
     expect(container.firstChild).toMatchSnapshot()
+  })
+
+  it('should handle Join button ', () => {
+    render(<JoinSection />)
+
+    const handleSubmit = jest.fn()
+
+    fireEvent.click(screen.getByLabelText(/join/i))
+
+    waitFor(() => {
+      expect(handleSubmit).toHaveBeenCalled()
+    })
   })
 })

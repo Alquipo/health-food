@@ -33,7 +33,9 @@ export default function JoinSection() {
                   type="email"
                   fullWidth
                 />
-                <Button type="submit">Join</Button>
+                <Button type="submit" aria-label="join">
+                  Join
+                </Button>
               </Form>
             )}
           </Formik>
