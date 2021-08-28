@@ -42,6 +42,20 @@ const GlobalStyles = createGlobalStyle`
   }
 
   ${({ theme }) => css`
+    //scrollbar configuration
+    ::-webkit-scrollbar {
+      width: 0.5rem;
+      height: 0.5rem;
+    }
+    ::-webkit-scrollbar-track {
+      background: ${theme.colors.lightGray};
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: ${theme.colors.primary};
+      border-radius: 1rem;
+    }
+
     html {
       font-size: 62.5%;
     }
