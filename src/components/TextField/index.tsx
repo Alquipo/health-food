@@ -8,6 +8,7 @@ export type TextFieldProps = {
   onBlur?: () => Promise<void>
   gridArea?: string
   mask?: string
+  fullWidth?: boolean
 }
 
 function TextField({
@@ -15,12 +16,13 @@ function TextField({
   placeholder,
   onBlur,
   mask,
+  fullWidth,
   ...props
 }: TextFieldProps & FieldHookConfig<string>) {
   const [field, meta] = useField(props)
 
   return (
-    <S.Wrapper gridArea={field.name}>
+    <S.Wrapper gridArea={field.name} fullWidth={fullWidth}>
       {label && <S.Label htmlFor={field.name}>{label}</S.Label>}
 
       <S.Input
@@ -30,6 +32,7 @@ function TextField({
         onBlur={onBlur}
         autoComplete="off"
         mask={mask}
+        data-testid={field.name}
       />
 
       {meta.error && <S.Error>{meta.error}</S.Error>}

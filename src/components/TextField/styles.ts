@@ -3,8 +3,9 @@ import { TextFieldProps } from '.'
 import InputMask from 'react-input-mask'
 
 export const Wrapper = styled.div<TextFieldProps>`
-  ${({ theme, gridArea }) => css`
+  ${({ gridArea, fullWidth }) => css`
     width: 100%;
+    max-width: ${fullWidth ? '100%' : '25rem'};
 
     display: flex;
     flex-direction: column;
@@ -24,7 +25,6 @@ export const Label = styled.label`
 export const Input = styled(InputMask)`
   ${({ theme }) => css`
     display: block;
-    max-width: 25rem;
     width: 100%;
     padding: ${theme.spacings.xsmall};
     border: solid 0.1rem ${theme.colors.secondary};
