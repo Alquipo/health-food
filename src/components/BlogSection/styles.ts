@@ -24,19 +24,29 @@ export const Header = styled.div`
 
 export const Title = styled.h2`
   ${({ theme }) => css`
-    font-size: ${theme.font.sizes.xxlarge};
+    font-size: ${theme.font.sizes.xxxlarge};
     color: ${theme.colors.secondary};
     text-align: center;
+
+    ${media.lessThan('small')`
+      font-size: ${theme.font.sizes.xxlarge};
+
+    `};
   `}
 `
 
 export const Text = styled.p`
   ${({ theme }) => css`
-    font-size: ${theme.font.sizes.large};
+    font-size: ${theme.font.sizes.xlarge};
+    font-weight: ${theme.font.bold};
     margin-top: ${theme.spacings.small};
     color: ${theme.colors.text};
     text-align: center;
-    line-height: 1.4;
+
+    ${media.lessThan('small')`
+      font-size: ${theme.font.sizes.large};
+
+    `};
   `}
 `
 
