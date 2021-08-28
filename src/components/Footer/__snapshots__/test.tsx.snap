@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer/> should render a Footer Section correctly 1`] = `
+.c0 {
+  width: 100%;
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 10.3rem;
+  padding: 2.4rem 0;
+  font-weight: 600;
+  font-size: 2.0rem;
+}
+
+.c2 {
+  color: #1D164D;
+}
+
+.c3 a {
+  color: #9E9BAF;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: 0.1s ease-in-out;
+  transition: 0.1s ease-in-out;
+}
+
+.c3 a:not(:first-child) {
+  margin-left: 1.6rem;
+}
+
+.c3 a:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+@media (max-width:768px) {
+  .c1 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+  }
+}
+
+@media (max-width:768px) {
+  .c2 {
+    margin-top: 3.2rem;
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+}
+
+@media (max-width:768px) {
+  .c3 a:not(:first-child) {
+    margin-top: 0.8rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c3 {
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+<div
+  class="c0"
+>
+  <footer
+    class="c1"
+  >
+    <p
+      class="c2"
+    >
+      © Copyrights 2019 Stack. All Rights Reserved.
+    </p>
+    <div
+      class="c3"
+    >
+      <a
+        href="https://github.com/Alquipo"
+      >
+        Privacy Policy
+      </a>
+      <a
+        href="https://github.com/Alquipo"
+      >
+        Terms and Conditions
+      </a>
+    </div>
+  </footer>
+</div>
+`;
