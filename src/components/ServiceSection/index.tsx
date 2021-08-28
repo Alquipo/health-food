@@ -2,7 +2,7 @@ import * as S from './styles'
 
 import Button from '../Button'
 
-export default function ServicesSection() {
+export default function ServiceSection() {
   return (
     <S.Wrapper>
       <S.Image src="/img/bloco_services.svg" />

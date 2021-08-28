@@ -1,0 +1,162 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ServiceSection/> should render a service section 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-height: 70rem;
+}
+
+.c1 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  object-fit: cover;
+}
+
+.c2 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+}
+
+.c3 {
+  width: 100%;
+  max-width: 55rem;
+}
+
+.c3 button {
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  margin-top: 3.2rem;
+}
+
+.c4 {
+  margin-bottom: 3.2rem;
+  font-size: 4.8rem;
+  color: #1D164D;
+  -webkit-letter-spacing: 0.1rem;
+  -moz-letter-spacing: 0.1rem;
+  -ms-letter-spacing: 0.1rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.3;
+}
+
+.c5 {
+  margin-top: 2.4rem;
+  color: #9E9BAF;
+  line-height: 1.6;
+  font-size: 2.0rem;
+}
+
+.c6 {
+  padding: 1.6rem 2.4rem;
+  background: #BADC58;
+  color: #FFFFFF;
+  border-radius: 0.6rem;
+  -webkit-transition: 0.1s ease-in-out;
+  transition: 0.1s ease-in-out;
+  box-shadow: 0 1.3rem 2.1rem -0.8rem #BADC58;
+  cursor: pointer;
+  border: none;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.c6:hover {
+  -webkit-filter: brightness(0.95);
+  filter: brightness(0.95);
+}
+
+@media (max-width:1170px) {
+  .c0 {
+    padding: 5.6rem 1.6rem;
+  }
+}
+
+@media (max-width:1170px) {
+  .c1 {
+    display: none;
+  }
+}
+
+@media (max-width:1170px) {
+  .c2 {
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width:450px) {
+  .c4 {
+    font-size: 3.6rem;
+  }
+}
+
+@media (max-width:450px) {
+  .c5 {
+    font-size: 1.8rem;
+  }
+}
+
+<section
+  class="c0"
+>
+  <img
+    class="c1"
+    src="/img/bloco_services.svg"
+  />
+  <div
+    class="c2"
+  >
+    <div
+      class="c3"
+    >
+      <h2
+        class="c4"
+      >
+        The best services ready To serve you
+      </h2>
+      <p
+        class="c5"
+      >
+        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts
+      </p>
+      <p
+        class="c5"
+      >
+        Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+      </p>
+      <p
+        class="c5"
+      >
+        A small river named Duden flows by their place and supplies it with the necessary regelialia.
+      </p>
+      <button
+        class="c6"
+        type="button"
+      >
+        Know More
+      </button>
+    </div>
+  </div>
+</section>
+`;
