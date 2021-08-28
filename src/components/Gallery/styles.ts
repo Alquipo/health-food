@@ -3,6 +3,8 @@ import media from 'styled-media-query'
 
 export const Wrapper = styled.div`
   ${({ theme }) => css`
+    padding: 1rem;
+
     .slick-prev,
     .slick-next {
       display: block;
@@ -38,7 +40,7 @@ export const Wrapper = styled.div`
       border: none;
 
       ${media.lessThan('large')`
-      right: ${theme.spacings.small};
+        right: ${theme.spacings.small};
       `};
     }
 
@@ -50,13 +52,6 @@ export const Wrapper = styled.div`
     .slick-slide > div {
       margin: ${theme.spacings.small} ${theme.spacings.xsmall};
       cursor: pointer;
-    }
-
-    .slick-slide {
-      ${media.lessThan('medium')`
-      margin-left: ${theme.spacings.small};
-
-    `}
     }
 
     .slick-list {
