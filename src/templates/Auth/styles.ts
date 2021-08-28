@@ -7,7 +7,7 @@ export const Wrapper = styled.main`
   height: 100vh;
 
   ${media.greaterThan('medium')`
-    grid-template-columns: 0.75fr 1fr;
+    grid-template-columns: 0.80fr 1fr;
   `}
 `
 
@@ -30,7 +30,7 @@ export const BannerBlock = styled.div`
       left: 0;
       right: 0;
       background: ${theme.colors.primary};
-      opacity: 0.85;
+      opacity: 0.3;
     }
   `}
 `
@@ -56,19 +56,18 @@ export const BannerContent = styled.div`
 
 export const Subtitle = styled.h3`
   ${({ theme }) => css`
-    font-size: ${theme.font.sizes.xxlarge};
-    font-weight: ${theme.font.normal};
+    font-size: ${theme.font.sizes.xxxlarge};
+    font-weight: ${theme.font.bold};
     margin-top: ${theme.spacings.xxsmall};
-
-    strong {
-      color: ${theme.colors.secondary};
-    }
+    color: ${theme.colors.secondary};
   `}
 `
 
 export const Footer = styled.p`
   ${({ theme }) => css`
-    font-size: ${theme.font.sizes.xsmall};
+    font-weight: ${theme.font.bold};
+    font-size: ${theme.font.sizes.xlarge};
+    color: ${theme.colors.secondary};
     text-align: center;
     align-self: end;
   `}
@@ -103,16 +102,13 @@ export const ContentWrapper = styled.div`
       display: flex;
       justify-content: center;
       margin-top: ${theme.spacings.small};
+      font-size: ${theme.font.sizes.xxxlarge};
     }
-
-    ${media.greaterThan('medium')`
-      /* width: 36rem; */
-    `}
   `}
 `
 export const Logo = styled.h1`
   ${({ theme }) => css`
     color: ${theme.colors.primary};
-    font-size: ${theme.spacings.medium};
+    font-size: ${theme.font.sizes.huge};
   `}
 `

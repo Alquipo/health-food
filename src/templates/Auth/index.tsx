@@ -16,17 +16,16 @@ const Auth = ({ title, children }: AuthProps) => (
   <S.Wrapper>
     <S.BannerBlock>
       <Image
-        src="/img/healthy_food.svg"
+        src="/img/healthy_food.jpg"
         alt="Healthy Food"
         layout="fill"
         objectFit="cover"
       />
       <S.BannerContent>
         <div>
-          <h1>All your favorite recipes in one place</h1>
           <S.Subtitle>
-            <strong>Healthy Food Web</strong> is the best and most complete site
-            healthy food.
+            <strong> Healthy Food Web </strong> is the best and most complete
+            site healthy food.
           </S.Subtitle>
         </div>
 
