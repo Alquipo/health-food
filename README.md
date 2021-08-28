@@ -45,17 +45,19 @@
     <img alt="Storybook" src="https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white">
   </a>
 
-
-
 </p>
 
 ## 🚀 Sobre o Desafio
 
-Desafio consiste em criar uma landPage para um site de alimentos saudáveis. Deve ser desenvolvido usando React, conter uma pagina de SigUp com formulário e validações, Deverá efetuar um fetch na API dos correios para completar o endereço e os dados deverá ser salvo no localStorage e Cookie
+Desafio consiste em criar uma landPage para um site de alimentos saudáveis. Deve ser desenvolvido usando React, conter uma pagina de SigUp com formulário e validações, Deverá efetuar um fetch na API dos correios para completar o endereço e os dados deverá ser salvo no localStorage e Cookie.
+
+[Link para Produção](https://health-food.alquipo.dev/)
+
+[Link para Storybook](https://health-food-storybook.alquipo.dev/)
 
 ## 🎉 Extras
 
-Com a finalização dos requisitos solicitados, foram efetuadas algumas adições ao projeto, maior parte das adições foram feitas para melhorar a experiência da equipe, como: Teste Unitários com JEST, Storybook, Styled-Components, geração de componentes personalizados com PLOP, TypeScript e algumas melhorias para o usuário como: Mascaras em alguns inputs e PWA com o NextJS.
+Com a finalização dos requisitos solicitados, foram efetuadas algumas adições ao projeto, maior parte das adições foram feitas para melhorar a experiência da equipe, como: Teste Unitários com JEST, Storybook, Styled-Components, geração de componentes personalizados com PLOP, CI github Actions, TypeScript e algumas melhorias para o usuário como: Mascaras em alguns inputs e PWA com o NextJS.
 
 Maior partes das adições foi efetuado configurações básicas, como o desafio não exigia e o tempo é curto optei por não fazer o desenvolvimento de um projeto completo, mas sim um projeto que pudesse ser usado como um desafio para o mercado.
 
@@ -69,6 +71,7 @@ Maior partes das adições foi efetuado configurações básicas, como o desafio
     -Adicionar TypeScript ✔️
     -Adicionar Plop para geração de componentes ✔️
     -Adicionado um Slider com imagens ✔️
+    -Adicionar CI workflow Github Actions ✔️
 
 ## 🎨 Layout
 
