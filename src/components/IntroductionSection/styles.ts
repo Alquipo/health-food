@@ -5,6 +5,8 @@ import media from 'styled-media-query'
 export const Wrapper = styled.section`
   ${({ theme }) => css`
     height: 100vh;
+    padding: 0 1.5rem;
+
     form {
       margin-top: ${theme.spacings.xsmall};
     }
