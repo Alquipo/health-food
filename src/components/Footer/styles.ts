@@ -8,6 +8,8 @@ export const Wrapper = styled.footer`
     align-items: center;
     height: 10.3rem;
     padding: ${theme.spacings.small} 0;
+    font-weight: ${theme.font.bold};
+    font-size: ${theme.font.sizes.xlarge};
 
     ${media.lessThan('medium')`
       flex-direction: column;
