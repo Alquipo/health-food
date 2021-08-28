@@ -1,0 +1,451 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FormSignUp /> should render the form 1`] = `
+.c0 {
+  margin-top: 3.2rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 form {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0.8rem;
+  grid-template-areas: 'name birthDate' 'cpf zipCode' 'address number' 'district city' 'state state' 'button button';
+  justify-items: center;
+  margin: 0 3.2rem;
+}
+
+.c0 form div:last-of-type {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 button {
+  margin-top: 3.2rem;
+  margin-left: auto;
+  grid-area: button;
+  margin-bottom: 2.4rem;
+}
+
+.c0 label {
+  margin-top: 1.6rem;
+}
+
+.c12 {
+  padding: 1.6rem 2.4rem;
+  background: #BADC58;
+  color: #FFFFFF;
+  border-radius: 0.6rem;
+  -webkit-transition: 0.1s ease-in-out;
+  transition: 0.1s ease-in-out;
+  cursor: pointer;
+  border: none;
+  width: 100%;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.c12:hover {
+  -webkit-filter: brightness(0.95);
+  filter: brightness(0.95);
+}
+
+.c1 {
+  width: 100%;
+  max-width: 25rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  grid-area: name;
+}
+
+.c4 {
+  width: 100%;
+  max-width: 25rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  grid-area: birthDate;
+}
+
+.c5 {
+  width: 100%;
+  max-width: 25rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  grid-area: cpf;
+}
+
+.c6 {
+  width: 100%;
+  max-width: 25rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  grid-area: zipCode;
+}
+
+.c7 {
+  width: 100%;
+  max-width: 25rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  grid-area: address;
+}
+
+.c8 {
+  width: 100%;
+  max-width: 25rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  grid-area: number;
+}
+
+.c9 {
+  width: 100%;
+  max-width: 25rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  grid-area: district;
+}
+
+.c10 {
+  width: 100%;
+  max-width: 25rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  grid-area: city;
+}
+
+.c11 {
+  width: 100%;
+  max-width: 25rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  grid-area: state;
+}
+
+.c2 {
+  display: block;
+  font-size: 1.6rem;
+  margin-bottom: 0.8rem;
+}
+
+.c3 {
+  display: block;
+  width: 100%;
+  padding: 1.6rem;
+  border: solid 0.1rem #1D164D;
+  border-radius: 0.6rem;
+  font-size: 1.6rem;
+  -webkit-transition: 0.1s ease-in-out;
+  transition: 0.1s ease-in-out;
+  font-size: 1.4rem;
+}
+
+.c3:focus,
+.c3:hover {
+  outline: none;
+}
+
+@media (min-width:1170px) {
+  .c0 form {
+    width: 50%;
+  }
+}
+
+@media (max-width:450px) {
+  .c0 form {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0 3.2rem;
+  }
+
+  .c0 form div {
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+
+<div
+  class="c0"
+>
+  <form
+    action="#"
+    autocomplete="off"
+  >
+    <div
+      class="c1"
+    >
+      <label
+        class="c2"
+        for="name"
+      >
+        Name
+      </label>
+      <input
+        autocomplete="off"
+        class="c3"
+        data-testid="name"
+        name="name"
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      class="c4"
+    >
+      <label
+        class="c2"
+        for="birthDate"
+      >
+        Birth Date
+      </label>
+      <input
+        autocomplete="off"
+        class="c3"
+        data-testid="birthDate"
+        name="birthDate"
+        type="date"
+        value=""
+      />
+    </div>
+    <div
+      class="c5"
+    >
+      <label
+        class="c2"
+        for="cpf"
+      >
+        CPF
+      </label>
+      <input
+        autocomplete="off"
+        class="c3"
+        data-testid="cpf"
+        name="cpf"
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      class="c6"
+    >
+      <label
+        class="c2"
+        for="zipCode"
+      >
+        Zip Code
+      </label>
+      <input
+        autocomplete="off"
+        class="c3"
+        data-testid="zipCode"
+        name="zipCode"
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      class="c7"
+    >
+      <label
+        class="c2"
+        for="address"
+      >
+        Address
+      </label>
+      <input
+        autocomplete="off"
+        class="c3"
+        data-testid="address"
+        name="address"
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      class="c8"
+    >
+      <label
+        class="c2"
+        for="number"
+      >
+        Number
+      </label>
+      <input
+        autocomplete="off"
+        class="c3"
+        data-testid="number"
+        name="number"
+        type="number"
+        value=""
+      />
+    </div>
+    <div
+      class="c9"
+    >
+      <label
+        class="c2"
+        for="district"
+      >
+        District
+      </label>
+      <input
+        autocomplete="off"
+        class="c3"
+        data-testid="district"
+        name="district"
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      class="c10"
+    >
+      <label
+        class="c2"
+        for="city"
+      >
+        City
+      </label>
+      <input
+        autocomplete="off"
+        class="c3"
+        data-testid="city"
+        name="city"
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      class="c11"
+    >
+      <label
+        class="c2"
+        for="state"
+      >
+        State (UF)
+      </label>
+      <input
+        autocomplete="off"
+        class="c3"
+        data-testid="state"
+        name="state"
+        type="text"
+        value=""
+      />
+    </div>
+    <button
+      class="c12"
+      type="submit"
+    >
+      Confirm
+    </button>
+  </form>
+</div>
+`;

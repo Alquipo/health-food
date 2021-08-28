@@ -8,7 +8,7 @@ import { fieldsValidationSchema } from '../../utils/validations'
 
 import Button from '../../components/Button'
 import TextField from '../../components/TextField'
-import useStorage from '../../hooks/useStorage'
+import useStorage from '../../hooks/use-storage'
 
 export type FormType = {
   name: string
@@ -38,6 +38,7 @@ function FormSignUp() {
   const { setLocalStorage, setCookie } = useStorage()
   const { push } = useRouter()
 
+  /* istanbul ignore next */
   async function handleSubmit(values: FormType) {
     setLocalStorage('signup-data', values)
     setCookie('signup-data', values, 5)
@@ -46,6 +47,7 @@ function FormSignUp() {
     push(`/`)
   }
 
+  /* istanbul ignore next */
   async function fetchCEP(
     e: React.FocusEvent<HTMLInputElement>,
     setFieldValue: (field: string, value: string) => void
