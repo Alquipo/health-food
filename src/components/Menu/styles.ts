@@ -1,13 +1,15 @@
 import styled, { css } from 'styled-components'
 import media from 'styled-media-query'
 
-export const Wrapper = styled.nav`
+export const Wrapper = styled.menu`
   height: 10rem;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: relative;
+  margin: 0 auto;
+  max-width: 120rem;
 
   a {
     text-decoration: none;
@@ -39,12 +41,12 @@ const menuNavModifiers = {
   `
 }
 
-export const MenuNav = styled.div<MenuNavProps>`
+export const MenuNav = styled.nav<MenuNavProps>`
   ${({ theme, isOpen }) => css`
     color: ${theme.colors.white};
 
     ${media.lessThan('medium')`
-    position: absolute;
+      position: absolute;
       opacity: 0;
       pointer-events: none;
       top: 100%;
@@ -63,7 +65,9 @@ export const MenuLink = styled.a`
     color: ${theme.colors.white};
     text-decoration: none;
     text-transform: uppercase;
-    font-size: ${theme.font.sizes.small};
+    font-size: ${theme.font.sizes.large};
+    font-weight: ${theme.font.bold};
+
     transition: ${theme.transition.fast};
 
     &:hover {
@@ -89,7 +93,7 @@ export const Register = styled.button`
   ${({ theme }) => css`
     border: none;
     text-transform: uppercase;
-    font-size: ${theme.font.sizes.small};
+    font-size: ${theme.font.sizes.medium};
     transition: ${theme.transition.fast};
     padding: ${theme.spacings.xxsmall} ${theme.spacings.xsmall};
     background: ${theme.colors.white};

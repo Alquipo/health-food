@@ -8,6 +8,7 @@ import { Menu as MobileMenuIcon } from '@styled-icons/boxicons-regular'
 export default function Menu() {
   const [isOpen, setIsOpen] = useState(false)
 
+  /* istanbul ignore next */
   function handleMobileMenu() {
     setIsOpen((state) => !state)
   }
@@ -16,7 +17,7 @@ export default function Menu() {
     <S.Wrapper>
       <S.Logo>Healthy Food</S.Logo>
 
-      <S.MenuNav isOpen={isOpen}>
+      <S.MenuNav isOpen={isOpen} aria-hidden={isOpen}>
         <S.MenuLink href="#">Healthy Recipes</S.MenuLink>
         <S.MenuLink href="#">Blog</S.MenuLink>
         <S.MenuLink href="#">Join</S.MenuLink>
@@ -29,7 +30,7 @@ export default function Menu() {
       </S.MenuNav>
 
       <S.MobileMenuButton onClick={handleMobileMenu}>
-        <MobileMenuIcon size={40} />
+        <MobileMenuIcon size={40} aria-label="Open Menu" />
       </S.MobileMenuButton>
     </S.Wrapper>
   )

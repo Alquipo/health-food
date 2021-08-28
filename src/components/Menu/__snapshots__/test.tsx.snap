@@ -1,0 +1,193 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Menu/> should render a Menu correctly 1`] = `
+.c0 {
+  height: 10rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  margin: 0 auto;
+  max-width: 120rem;
+}
+
+.c0 a {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  width: 100%;
+}
+
+.c1 {
+  color: #BADC58;
+  font-size: 3.2rem;
+}
+
+.c2 {
+  color: #FFFFFF;
+}
+
+.c3 {
+  margin-right: 2.4rem;
+  color: #FFFFFF;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  font-weight: 600;
+  -webkit-transition: 0.1s ease-in-out;
+  transition: 0.1s ease-in-out;
+}
+
+.c3:hover {
+  -webkit-filter: brightness(0.95);
+  filter: brightness(0.95);
+}
+
+.c4 {
+  border: none;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  -webkit-transition: 0.1s ease-in-out;
+  transition: 0.1s ease-in-out;
+  padding: 0.8rem 1.6rem;
+  background: #FFFFFF;
+  border-radius: 0.6rem;
+  color: #BADC58;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.c5 {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.c5 svg {
+  fill: #1D164D;
+}
+
+.c6 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+@media (max-width:768px) {
+  .c2 {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    top: 100%;
+    right: 0;
+    background: #BADC58;
+    z-index: 20;
+  }
+}
+
+@media (max-width:1170px) {
+  .c3 {
+    color: #9E9BAF;
+  }
+}
+
+@media (max-width:768px) {
+  .c3 {
+    color: #FFFFFF;
+    display: block;
+    padding: 1.6rem 2.4rem;
+    border-bottom: solid 0.1rem #FFFFFF;
+    width: 100%;
+  }
+}
+
+@media (max-width:1170px) {
+  .c4 {
+    background: #BADC58;
+    color: #FFFFFF;
+  }
+}
+
+@media (min-width:768px) {
+  .c4 {
+    padding: 1.6rem 2.4rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c5 {
+    display: none;
+  }
+}
+
+<menu
+  class="c0"
+>
+  <h1
+    class="c1"
+  >
+    Healthy Food
+  </h1>
+  <nav
+    aria-hidden="false"
+    class="c2"
+  >
+    <a
+      class="c3"
+      href="#"
+    >
+      Healthy Recipes
+    </a>
+    <a
+      class="c3"
+      href="#"
+    >
+      Blog
+    </a>
+    <a
+      class="c3"
+      href="#"
+    >
+      Join
+    </a>
+    <a
+      href="/sign-up"
+    >
+      <button
+        class="c4"
+      >
+        Register
+      </button>
+    </a>
+  </nav>
+  <button
+    class="c5"
+  >
+    <svg
+      aria-hidden="true"
+      aria-label="Open Menu"
+      class="c6"
+      fill="currentColor"
+      focusable="false"
+      height="40"
+      viewBox="0 0 24 24"
+      width="40"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"
+      />
+    </svg>
+  </button>
+</menu>
+`;
